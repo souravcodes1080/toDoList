@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url("./background.jpg");
+    font-family: 'Poppins', sans-serif;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.list{
+    border: 5px solid rgb(199, 242, 255);
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 25px;
+    height: 560px;
+    background-color: rgba(159, 229, 251, 0.7);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: rgb(0, 115, 141);
+}
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#input{
+    width: 250px;
+    height: 30px;
+    border: none;   
+    background-color: rgba(159, 229, 251, 0);
+    border-bottom: 2px solid rgb(10, 192, 248);
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 15px;
+    outline: none;
+}
+button{
+    margin-left: 10px;
+    color: rgb(10, 192, 248);
+    background-color: rgb(199, 242, 255);
+    border: 2px solid rgb(10, 192, 248);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+p{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 242, 255, 0.607);
+    border: 2px solid rgb(10, 192, 248);
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+#list{
+    cursor: default;
+    height: 400px;
+    width: 331px;
+    overflow-x: hidden;
+    overflow-y: scroll ;
+}
+
+@media only screen and (max-width: 480px) {
+    html, body{
+        background-image: url("./background2.jpg");
+    }
+    .list{
+        width: 280px;
+        margin-top: 45px;
+        padding: 45px 40px;
+        height: 560px;
+    }
+    h1{
+        font-size: 35px;
+        padding-bottom: 10px;
+       
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+    }
+    #input{
+        width: 200px;
+        height: 30px;
+        font-size: 18px;
+        padding: 3px;
+        padding-left: 15px;
+
+    }
+    button{
+        margin-left: 8px;
+        font-size: 25px;
+        padding: 6px 12px;
+
+    }
+    p{
+        margin-right: 7px;
+        margin-bottom: 9px;
+        padding: 5px;
+        font-size: 16px;
+        overflow-x: hidden;
+    
+    }
+    
+#list{
+    height: 400px;
+    width: 310px;
+    
+}
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(199, 242, 255);
+    border-radius: 5px ;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:rgb(72, 212, 255) ;
+    border-radius: 5px ;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(72, 212, 255);
+    cursor: pointer;
+  }
+
