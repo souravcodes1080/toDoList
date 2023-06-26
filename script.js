@@ -14,3 +14,5 @@ add.addEventListener('click',function(){
         list.removeChild(paragraph);    
     })
 })
+
+alert("Single click to stike off task. Double click to remove task.");
