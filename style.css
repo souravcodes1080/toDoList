@@ -55,6 +55,13 @@ button{
     font-size: 30px;
     padding: 7px 14px;
     cursor: pointer;
+    transition: .2s ease;
+}
+button:active{
+    color: rgb(8, 163, 210);
+    background-color: rgb(166, 201, 212);
+    border: 2px solid rgb(8, 164, 211);
+    transform: scale(0.9);
 }
 
 p{
