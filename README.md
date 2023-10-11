@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png" width="50%">
+  <img src="https://cdn.icon-icons.com/icons2/1526/PNG/512/checklist_106575.png" width="50%">
 </div>
 <div align="center">
   <h3><a href="https://sourav-todolist.netlify.app/">Visit Website🌐</a></h3>
